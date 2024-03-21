@@ -28,6 +28,7 @@
         "*.tcc": "cpp",
         "iosfwd": "cpp",
         "iostream": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "vector": "cpp"
     }
 }

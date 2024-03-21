@@ -21,7 +21,7 @@ int main()
     string line;
     ifstream fin;
 
-    fin.open("D:\\Before Code Forces\\Design and Analysis of Algorithms LAb\\digit.txt");
+    fin.open("D:\\Before Code Forces\\Design-and-Analysis-of-Algorithms-Lab\\digit.txt");
 
     while (getline(fin, line))
     {
@@ -37,7 +37,7 @@ int main()
     sort(v.begin(), v.end());
 
     cout << "The Numbers in file are:";
-    for (int i = 0; i < 10; i++)
+    for (int i = 0; i < v.size(); i++)
     {
         cout << v[i] << " ";
     }
