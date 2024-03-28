@@ -21,7 +21,7 @@ int main()
     int vertices;
     cout << "Enter the number of vertices:";
     cin >> vertices;
-    vector<int> visited(6, 0);
+    vector<int> visited(vertices, 0);
     
     // Defining directed edges in adjacency matrix
 
